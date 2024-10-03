@@ -1,0 +1,27 @@
+'''# Get the last two digits of the birth year and current year from the user
+birth_year = int(input("Enter the last 2 digits of your birth year (e.g., 62 for 1962): "))
+current_year = int(input("Enter the last 2 digits of the current year (e.g., 99 for 1999): "))
+
+# Determine the full year for birth and current year
+# Assuming the birth year is in the 1900s if current year is less than birth year
+if current_year < birth_year:
+    age = (100 + current_year) - birth_year
+else:
+    age = current_year - birth_year
+
+# Print the user's current age
+print(age) '''
+Program:
+# Get the last two digits of the birth year and current year from the user
+birth_year = int(input("Enter the last 2 digits of your birth year (e.g., 62 for 1962): "))
+current_year = int(input("Enter the last 2 digits of the current year (e.g., 99 for 1999): "))
+
+# Determine the full year for birth and current year
+# Assuming the birth year is in the 1900s if current year is less than birth year
+if current_year < birth_year:
+    age = (100 + current_year) - birth_year
+else:
+    age = current_year - birth_year
+
+# Print the user's current age
+print(age)
