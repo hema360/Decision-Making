@@ -1,0 +1,38 @@
+'''4) A fruit seller buys a dozen of banana at Rs.X. He sells 1 banana at Rs.Y. Write a program to determine the profit or loss in Rs. for the fruitseller.
+Input format:
+Input consists of 2 floating point numbers
+The first input corresponds to the total cost(X)
+The second input corresponds to the sold cost(Y)
+Output format:
+Print "Profit or Loss" with Rupees.
+Sample Input:
+60
+4
+Sample Output:
+Loss : Rs.12.00 '''
+Program :
+# Get the marks scored by the student
+marks = int(input("Enter the marks: "))
+
+# Check for invalid input
+if marks > 100:
+    print("Invalid Input")
+else:
+    # Determine the grade based on the marks
+    if marks == 100:
+        grade = 'S'
+    elif 90 <= marks <= 99:
+        grade = 'A'
+    elif 80 <= marks <= 89:
+        grade = 'B'
+    elif 70 <= marks <= 79:
+        grade = 'C'
+    elif 60 <= marks <= 69:
+        grade = 'D'
+    elif 50 <= marks <= 59:
+        grade = 'E'
+    else:
+        grade = 'F'
+    
+    # Print the grade
+    print(grade)
